@@ -8,7 +8,7 @@ ________________________________________
 2.	Describe three different pandemic-related eCrime Phishing themes.
     * **Impersonating medical organizations (WHO or CDC).**
     * **Scams offering Personal Protective Equipment.**
-    * Appearing to offer information about financial assistance and stimulus packages.**
+    * **Appearing to offer information about financial assistance and stimulus packages.**
 
 3.	Which industry was targeted with the highest number of ransomware-associated data extortion operations?
     * **Industrial and Engineering Sector**
@@ -58,9 +58,8 @@ Sources:
 2. [Georgia State University – The Cyber Crime Ecosystem](https://ebcs.gsu.edu/about/cybercrime-ecosystem/)
 
 3. [ZDNet – Ransomware Operators love them: Key trends in the Initial Access Broker space](https://www.zdnet.com/article/ransomware-operators-love-them-key-trends-in-the-initial-access-broker-space/)
-https://www.zdnet.com/article/ransomware-operators-love-them-key-trends-in-the-initial-access-broker-space/
+
 
 4. [Bank Info Security – Ransomware: No Decline in Victims Posted to Data Leak Sites](https://www.bankinfosecurity.com/ransomware-no-decline-in-victims-posted-to-data-leak-sites-a-17719)
-https://www.bankinfosecurity.com/ransomware-no-decline-in-victims-posted-to-data-leak-sites-a-17719
 
 
