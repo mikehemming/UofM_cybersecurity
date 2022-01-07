@@ -12,7 +12,7 @@
 
 ### 2. What is the preferred employee behavior?
 
-1) Make sure all devices are PIN/Password protected using min 6 digit pin. Biometrics are also acceptable
+1) All devices should have PIN/Password or biometric protrection to access company apps and data at a minimum. Minimum 6 digit pin or password conforming to approved password policy. Employees must report lost or stolen device within 24 hours to SOC team.
 
 2) Apps should only be downloaded from approved app stores and should be on IT's approved app list. All other apps should be approved by IT prior to download.
 
@@ -21,7 +21,7 @@
 
 ### 3. What methods of measurement are used to determine how many employees are not complying?
 
-1) Use a company approved mobile device management app like 'Intune' or 'MaaS360' to require password protection on company apps and data on the device and also allow device tracking
+1) Use a company approved mobile device management app like 'Intune' or 'MaaS360' to require password protection on company apps and data on the device with required PIN/Password complexity. A 'find my device' app or setting must be enabled.
 
 2) Through the use of an aprroved MDM, virus and malware detection can be run periodically to determine if a phone has been infected. Users with infected devices and be surveyed to determine if they have downloaded non-approved apps from unapproved app stores.
 
@@ -30,7 +30,7 @@
 
 ### 4. What is the organizations goals regarding this behavior?
 
-1) IT becoming aware of a lost device within 24 hours of loss. Device recovery or brick within 24 hours of discovery of loss.
+1) IT becoming aware of a lost device within 24 hours of loss. Device recovery or brick within 24 hours of discovery of loss.  100% compliance on PIN/Password for business apps access at a minimum.
 
 2) Malware found on less than 5% BYOD devices.
 
@@ -55,7 +55,7 @@
 
 * Training
 
-    1) MDM training will be provided in person upon hire for any employees electing to use BYOD. Topics will cover the purpose of the MDM, how to access company resources using the MDM OS, how to report a lost/stolen device and importance of immediately reporting. Additional training offered upon request with annual retraining offered. Users will be informed of updates and changes through Public Bulletin emails and retraining will occur if changes are deemed signifcant to user experience. Surveys will be conducted with owners of lost devices to determine if device was determined lost within the 24 hour timeframe and metrics from MDM used to determine if the device was successfully recovered or bricked within the required timeframe.
+    1) MDM training will be provided in person upon hire for any employees electing to use BYOD. Topics will cover the purpose of the MDM, how to access company resources using the MDM OS, how to report a lost/stolen device and importance of immediately reporting. Additional training offered upon request with annual retraining offered. Users will be informed of updates and changes through Public Bulletin emails and retraining will occur if changes are deemed signifcant to user experience. Surveys will be conducted with owners of lost devices to determine if device was determined lost within the 24 hour timeframe and metrics from MDM used to determine if the device was successfully recovered or bricked within the required timeframe. Policy on PIN/Password complexity explained and explanation of 'best practices' for password creating and retention.
     
     2) Initial training will be in person and designed to discuss the approved app list, approved app stores, and procedure for requesting an app be approved by the security team.  Annual training will occur to reinforce the procedure. Effectiveness measured based on how many devices have malware detected
     
