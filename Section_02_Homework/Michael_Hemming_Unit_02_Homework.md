@@ -70,3 +70,12 @@
 
     2) An additional measure to help prevent employees from taking data off the network and storing on personal BYOD would be to require an employment contract ammendment be signed that specifically prohibits this behavior. This would be an administrative control requiring HR to be involved. The contract ammendment could spell out what disciplinary actions can be taken by the organization if unauthorized data is detected on a BYOD device. SOC can be used to do periodic audits of critical data to determine who access and if illicit copies were made. The point of this measure would be a deterrent measure by spelling out possible consequences. This would make it clear to employees that this behavior is not acceptable and hopefully prevent employees from taking data for non-malicious reasons to speed up their productivity and also offer stiff penalties to potential bad actors. This can be a difficult thing to detect, and perhaps evidence is not sufficient to make a determination about guilt. Also, the party might have acted with innocent intentions but ultimately could lose their jobs.
 
+
+## Sources
+
+1) [The Top 7 Risks of Bring Your Own Device (BYOD) MSPs Should Remember](https://www.n-able.com/blog/the-top-7-risks-of-bring-your-own-device-msps-should-remember)
+
+2) [The Risks of Staff Using Personal Devices for Work](https://www.leaderschoiceinsurance.com/blog/the-risks-of-staff-using-personal-devices-for-work/)
+
+3) [BYOD: How your business can address the 5 biggest vulnerabilities](https://ccbtechnology.com/byod-5-biggest-security-risks/)
+
