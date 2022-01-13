@@ -1,0 +1,1 @@
+This folder contains investigation notes for roulette losses investigation
