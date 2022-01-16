@@ -1,1 +1,1 @@
-This folder contains evidence of conspiracy to steal from Lucky Duck Casino
+This folder contains evidence of conspiracy to steal from Lucky Duck Casino.
