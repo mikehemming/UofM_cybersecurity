@@ -90,7 +90,7 @@ Save and submit the completed file for your homework submission.
 3. Command to run expert mode: **sudo chkrootkit -x**
 
 4. Provide a report from the chrootkit output on what can be done to harden the system.
-    - Screenshot of end of sample output: 
+    - Screenshot of end of sample output: [chkrootkit report](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_04_Homework/screenshots/chkrootkit_results/chkrootkit_audit_output.png)
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
