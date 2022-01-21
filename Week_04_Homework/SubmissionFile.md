@@ -80,7 +80,11 @@ Save and submit the completed file for your homework submission.
 4. Provide a report from the Lynis output on what can be done to harden the system.
 
     - Screenshot of report output: 
-
+    
+        -   [lynis audit page 1](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_04_Homework/screenshots/lynis_results/lynis_audit_results_01.png) 
+        -   [lynis audit page 2](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_04_Homework/screenshots/lynis_results/lynis_audit_results_02.png)
+        -   [lynis audit page 3](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_04_Homework/screenshots/lynis_results/lynis_audit_results_03.png)
+        -   [lynis audit page 4](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_04_Homework/screenshots/lynis_results/lynis_audit_results_04.png)
 
 ### Bonus
 1. Command to install chkrootkit: **sudo apt install chkrootkit**
