@@ -63,8 +63,8 @@ Save and submit the completed file for your homework submission.
     ```
     systemctl status sshd
     ```
-    - confirmed server was not listening on port 22 and port 2222.
-
+    - confirmed server was now listening on port 22 and port 2222.
+    
 **Step 3: Testing Your Configuration Update**
 1. Restart the SSH service:
     ```
