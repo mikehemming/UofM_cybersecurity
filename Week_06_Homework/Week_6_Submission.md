@@ -35,9 +35,11 @@ Save and submit the completed file for your homework submission.
         - sysd  ALL=(ALL) NOPASSWD:ALL
 
 6. Test that `sudo` access works without your password:
-
+    - su to sysd user profile
     ```
-    sudo -lU sysd
+    sudo su sysd
+    whoami
+    sudo -l
     ```
 
 **Step 2: Smooth Sailing**
