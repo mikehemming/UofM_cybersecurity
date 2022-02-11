@@ -35,9 +35,11 @@ Save and submit the completed file for your homework submission.
         - sysd  ALL=(ALL) NOPASSWD:ALL
 
 6. Test that `sudo` access works without your password:
-
+    - su to sysd user profile
     ```
-    sudo -lU sysd
+    sudo su sysd
+    whoami
+    sudo -l
     ```
 
 **Step 2: Smooth Sailing**
@@ -61,8 +63,8 @@ Save and submit the completed file for your homework submission.
     ```
     systemctl status sshd
     ```
-    - confirmed server was not listening on port 22 and port 2222.
-
+    - confirmed server was now listening on port 22 and port 2222.
+    
 **Step 3: Testing Your Configuration Update**
 1. Restart the SSH service:
     ```
