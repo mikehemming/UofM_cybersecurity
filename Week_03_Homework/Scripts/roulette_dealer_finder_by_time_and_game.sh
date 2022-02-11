@@ -1,4 +1,11 @@
 #/bin bash
+
+# Use this script to determine which dealer was running specified game and specified time. 
+
+# Script Begins
+
+##############################################################################################
+
 clear
 echo
 read -p "Enter the Date [MMDD] : " date
