@@ -69,7 +69,7 @@
     * `http.request.method == "GET"`
     * hacker visited a site `www.gottheblues.yolasite.com`
  * Used following filter to determine if information was sent to a this website:
-    * `http.request.method == "POST"
+    * `http.request.method == "POST"`
     * the hacker is an employee with Rockstar and offered `Got the Blues` a username and password along with information regarding the open ssh port on the Rockstar server in exhange for 1 million USD.
  * Highly recommend that `port 22` is closed immediately. Determine which devices were associated with the duplicate IP found during the `arp` scan and determine the users associated to narrow down the possible hacker.
  * These findings were found at the application layer. HTTP and ARP live on the Application Layer.
