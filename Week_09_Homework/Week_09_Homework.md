@@ -10,8 +10,8 @@
 
 - The MX record is not pointed at the correct mail server. The correct record should look like the following:
 
-    starwars.com    MX preference = 1, mail exchanger = asltx.l.google.com
-    starwars.com    MX preference = 5, mail exchanger = asltx.2.google.com
+    starwars.com MX preference = 1, mail exchanger = asltx.l.google.com  
+    starwars.com MX preference = 5, mail exchanger = asltx.2.google.com
 
 ## MISSION 2
 
