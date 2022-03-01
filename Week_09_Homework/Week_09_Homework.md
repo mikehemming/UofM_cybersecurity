@@ -53,5 +53,8 @@ princessleia.site nameserver = ns2.galaxybackup.com
 
 ## MISSION 7
 
-![Mission_7_result_1]
+![Mission_7_result_1](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_09_Homework/Mission_7_screenshots/Mission%206_results.png)
+
+![Mission_7_result-2](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_09_Homework/Mission_7_screenshots/Mission%206_results_2.png)
+
 
