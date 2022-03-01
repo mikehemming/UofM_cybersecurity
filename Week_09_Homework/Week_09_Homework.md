@@ -22,7 +22,7 @@
 ## MISSION 3
 
 -   www.theforce.net        canonical name = theforce.net
--   resistance.theforece.net is not included in the cname record for theforce.net so traffic will not be redirected correctly.
+-   resistance.theforece.net does not have a cname record redirecting it to theforce.net
 -   resistance.theforce.net canonical name = theforce.net
 
 ## MISSION 4
