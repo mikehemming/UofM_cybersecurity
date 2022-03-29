@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T01:28:41.437Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="ID6t_5XwmMmUdD7Hnx6M" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T01:29:36.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="ZUt2tu65xidoHZpiJnGW" version="17.2.4" type="github">
   <diagram id="BcKHULZ1kER3_SqcdWZr" name="Page-1">
     <mxGraphModel dx="2735" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -176,9 +176,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bmjdzYFksiJw2nkc2v1e-1" value="Availability Zone" style="swimlane;dashed=1;strokeWidth=3;" vertex="1" parent="KfCI-gzxBBh_X_rSzUPk-384">
-          <mxGeometry x="200" y="410" width="680" height="210" as="geometry" />
-        </mxCell>
         <mxCell id="KfCI-gzxBBh_X_rSzUPk-389" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0T3sUIN6MnRl2pz91Clv-40" target="0T3sUIN6MnRl2pz91Clv-116" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="-357.5" as="sourcePoint" />
@@ -259,6 +256,9 @@
               <mxPoint x="780" y="440" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bmjdzYFksiJw2nkc2v1e-2" value="Availability Zone" style="swimlane;horizontal=0;dashed=1;strokeWidth=3;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="650" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
