@@ -12,5 +12,8 @@ Incident - On February 23rd, 2022, a suspected DDOS attack was suspected against
 ### CUSTOMER DATA SERVER CRITICAL VULNERABILITIES
 -   A number of vulnerabilites were detected in the Nessus data. A report and alert in Splunk were created to anaylyze the vulnerabilites and alert the SOC if there are additional vulnerabilities detected.
 
+![Critcal Vulnerability Report](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_18_Homework/Screencaps/Nessus_Logs_Critical_Vulnerabilities_report.png)
+
+![Critical Vulnerability Alert](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_18_Homework/Screencaps/Critical_vulnerability_Alert.png)
 
 -  A brute force attack was launched to break an admin account. The attack began at 0200 on Feb 21st, 2020.
