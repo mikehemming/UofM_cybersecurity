@@ -17,3 +17,11 @@ Incident - On February 23rd, 2022, a suspected DDOS attack was suspected against
 ![Critical Vulnerability Alert](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_18_Homework/Screencaps/Critical_vulnerability_Alert.png)
 
 -  A brute force attack was launched to break an admin account. The attack began at 0200 on Feb 21st, 2020.
+
+![Brute Force Attack](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_18_Homework/Screencaps/Admin_logs_brute_force_attack.png)
+
+-  It was determined that an alert should be created in order to give warning of a potential brute force attack in the future
+    - a normal baseline of failed logins is about 13 per day. 
+    - a alert threshold of 30 has been selected to indicate a possible brute force attack is beginning.
+
+![Brute Force Attack Alert](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_18_Homework/Screencaps/Brute_force_alert.png)
