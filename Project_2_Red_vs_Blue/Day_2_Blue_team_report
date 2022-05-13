@@ -1,0 +1,75 @@
+After creating your dashboard and becoming familiar with the search syntax, use these tools to answer the questions below:
+
+
+## Identify the offensive traffic.
+
+1) Identify the traffic between your machine and the web machine:
+
+    - When did the interaction occur?
+        - The interaction began around 00:00UDT, May 10th, 2022 and ended around 02:15UDT on May 10th, 2022.
+    - What responses did the victim send back?
+        - 401 on initial GET request to /secret/folder, along with 301, 207, 404, and 200 responses on queries to the webdav directory.
+    - What data is concerning from the Blue Team perspective?
+        - There is a large spike in the connections over time just after 0030UDT with traffic spiking to nearly 20,000 unique connections. This could be a DDOS attack or in our case, the brute force attack to break the password on the secret folder directory.
+
+
+
+
+## Find the request for the hidden directory.
+
+2) In your attack, you found a secret folder. Let's look at that interaction between these two machines.
+
+    - How many requests were made to this directory? At what time and from which IP address(es)?
+        - The folder /company_folders/secret_folder was accessed 17,182 times.
+    - Which files were requested? 
+        - connect_to_corp_server was accessed 2 times.
+    - What information did they contain?
+        - instructions to access the webdav server.
+    - What kind of alarm would you set to detect this behavior in the future?
+        - I would set an alert if to go off anytime the /secret_folder/ directory or connect_to_corp_server was accessed
+    - Identify at least one way to harden the vulnerable machine that would mitigate this attack.
+        - I would take these off a public facing server.
+
+
+
+
+
+Identify the brute force attack.
+
+After identifying the hidden directory, you used Hydra to brute-force the target server. Answer the following questions:
+
+Can you identify packets specifically from Hydra?
+How many requests were made in the brute-force attack?
+How many requests had the attacker made before discovering the correct password in this one?
+What kind of alarm would you set to detect this behavior in the future and at what threshold(s)?
+Identify at least one way to harden the vulnerable machine that would mitigate this attack.
+
+
+
+
+
+Find the WebDav connection.
+
+Use your dashboard to answer the following questions:
+
+How many requests were made to this directory?
+Which file(s) were requested?
+What kind of alarm would you set to detect such access in the future?
+Identify at least one way to harden the vulnerable machine that would mitigate this attack.
+
+
+
+
+
+Identify the reverse shell and meterpreter traffic.
+
+To finish off the attack, you uploaded a PHP reverse shell and started a meterpreter shell session. Answer the following questions:
+
+Can you identify traffic from the meterpreter session?
+What kinds of alarms would you set to detect this behavior in the future?
+Identify at least one way to harden the vulnerable machine that would mitigate this attack.
+
+
+
+
+
