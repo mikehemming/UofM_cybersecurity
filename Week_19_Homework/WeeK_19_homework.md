@@ -6,6 +6,10 @@
  - Several users were impacted during the attack on March 25th
    - According to the logs, user_a was effected by several account lockouts
    - user_k had several password reset attempts.
+![User Count](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_19_Homework/Screenshots/user_count.png)
+
+![Activity Signature Count](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_19_Homework/Screenshots/activity_signature_count.png)
+
  - Based on the attack signatures, what mitigations would you recommend to protect each user account? Provide global mitigations that the whole company can use and individual mitigations that are specfic to each user.
    - All user passwords should be immediately reset. 
    - Require users to change passwords every 30-90 days (if using Windows, enforce in Group Policy)
@@ -28,8 +32,12 @@
    - Block all incoming HTTP traffic where the source IP originates from the city of Kiev, Ukraine or Kharkiv, Ukraine.
  - Provide a screen shot of the geographic map that justifies why you created this rule.
 
+ ![Geographic Map](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_19_Homework/Screenshots/HTTP_traffice_from_Ukraine.png)
+
 ### Question 2
  - VSI has insider information that JobeCorp will launch the same webserver attack but use a different IP each time in order to avoid being stopped by the rule you just created.
  - What other rules can you create to protect VSI from attacks against your webserver?
    - Block all incoming HTTP traffic containing the URI containing string 'VSI_Account_logon.php'
+![Top URIs](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_19_Homework/Screenshots/Top_URIs.png)
    - Block all incomoing HTTP traffic from useragent Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 2.0.50727987787; InfoPath.1)
+![User Agent](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Week_19_Homework/Screenshots/User_agent.png)
