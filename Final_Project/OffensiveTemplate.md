@@ -13,7 +13,7 @@ Nmap scan results for each machine reveal the below services and OS details:
 ```bash
 $ nmap -sV 192.168.1.0/16
 ```
-![https://github.com/mikehemming/UofM_cybersecurity/blob/main/Final_Project/Screenshots/nmap%20-sV%20results.png]
+![nmap results](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Final_Project/Screenshots/nmap%20-sV%20results.png)
 
 
 
