@@ -1,5 +1,4 @@
 # Blue Team: Summary of Operations
-
 ## Table of Contents
 - Network Topology
 - Description of Targets
@@ -11,20 +10,35 @@
 _TODO: Fill out the information below._
 
 The following machines were identified on the network:
-- Name of VM 1
-  - **Operating System**:
-  - **Purpose**:
-  - **IP Address**:
-- Name of VM 2
-  - **Operating System**:
-  - **Purpose**:
-  - **IP Address**:
-- Etc.
+- Azure VM - running Hyper-V
+  - **Operating System**: Windows
+  - **Purpose**: create the Virtual environment for the engagement
+  - **IP Address**: 192.168.1.1
+- ELK Server
+  - **Operating System**: Linux Ubuntu
+  - **Purpose**: Log Ingestion
+  - **IP Address**: 192.168.0.100
+- Capstone
+  - **Operating System**: Linux Ubuntu
+  - **Purpose**: Testing the Alerts
+  - **IP Address**: 192.168.0.105
+- Target 1
+  - **Operating System**: Linux
+  - **Purpose**: Primary target of the engagement
+  - **IP Address**: 192.168.0.110
+- Target 2
+  - **Operating System**: Linux
+  - **Purpose**: Secondary target of the engagement
+  - **IP Address**: 192.168.0.115
+- Kali
+  - **Operating System**: Kali Linux
+  - **Purpose**: Attacker (contains pentest tools)
+  - **IP Address**: 192.168.0.90
 
 ### Description of Targets
 _TODO: Answer the questions below._
 
-The target of this attack was: `Target 1` (TODO: IP Address).
+The target of this attack was: `Target 1` (192.168.0.110).
 
 Target 1 is an Apache web server and has SSH enabled, so ports 80 and 22 are possible ports of entry for attackers. As such, the following alerts have been implemented:
 
@@ -32,42 +46,39 @@ Target 1 is an Apache web server and has SSH enabled, so ports 80 and 22 are pos
 
 Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below:
 
-#### Name of Alert 1
-_TODO: Replace `Alert 1` with the name of the alert._
+#### Excessive HTTP Errors
 
-Alert 1 is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: TODO
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+Excessive HTTP Errors is implemented as follows:
+  - **Metric**: http response status code
+  - **Threshold**: 400 in the last 5 minutes
+  - **Vulnerability Mitigated**: SQL injection, Cross-Site Scripting, brute-force
+  - **Reliability**: Low reliablility, generates a lot of false positives
 
-#### Name of Alert 2
-Alert 2 is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: TODO
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+#### HTTP Request Size Monitor
+HTTP request size monitor is implemented as follows:
+  - **Metric**: HTTP request size in bites
+  - **Threshold**: More than 3500 bits are requested in a 1 minute timeframe
+  - **Vulnerability Mitigated**: DDOS attacks
+  - **Reliability**: Medium/high reliability. Will detect high consistent traffic, may generate false positive if user has trouble inputting credentials. lockout policies can mitigate this.
 
-#### Name of Alert 3
+#### CPU Usage Monitor
 Alert 3 is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: TODO
-  - **Vulnerability Mitigated**: TODO
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Metric**: Percentage of CPU usage
+  - **Threshold**: usage above 50% for 5 minues
+  - **Vulnerability Mitigated**: Malware detection/trojans 
+  - **Reliability**: Medium reliability. Could generate false positives if the computer has high CPU utilization for legitimate reasons
 
-_TODO Note: Explain at least 3 alerts. Add more if time allows._
+
 
 ### Suggestions for Going Further (Optional)
-_TODO_: 
-- Each alert above pertains to a specific vulnerability/exploit. Recall that alerts only detect malicious behavior, but do not stop it. For each vulnerability/exploit identified by the alerts above, suggest a patch. E.g., implementing a blocklist is an effective tactic against brute-force attacks. It is not necessary to explain _how_ to implement each patch.
-
+_
 The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats, identified by the alerts above. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
-- Vulnerability 1
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
-- Vulnerability 2
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
-- Vulnerability 3
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
+- SSH brute-force attack
+  - **Patch**: install `SSHGaurd` with `sudo apt-get install sshguard`
+  - **Why It Works**: `SSHGuard` monitors users attempting to access server via SSH. If it detects several unsuccessful login attempts, the IP will be blocked using `iptables`
+- DDOS Attacks
+  - **Patch**: install `iptables` with `sudo apt-get install iptables`
+  - **Why It Works**: `iptables` is a command line firewall that can be set up with several rules. It can detect unusually high traffic indicative of a DDOS attack and add to the programs blocklist. Other firewall options avaialbe for added protection against brute-force and other attacks.
+- Malware detection/trojan
+  - **Patch**: install `clamav` with `sudo apt-get install`
+  - **Why It Works**: `clamav` is a virus scan tool for detecting viruses, malware, and trojans with a continuously updated database
