@@ -6,11 +6,17 @@ You must inspect your traffic capture to answer the following questions:
 
 1. What is the domain name of the users' custom site?
     - `frank-n-ted.com`
+![custom_domain](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Final_Project/Screenshots/wireshark_custom_site_domain.png)
+
 2. What is the IP address of the Domain Controller (DC) of the AD network?
     - `10.6.12.12`
 3. What is the name of the malware downloaded to the 10.6.12.203 machine?
     - `June11.dll`
+![june11.dll_malware](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Final_Project/Screenshots/wireshark_malware_June11.dll.png)
+
 4. Upload the file to [VirusTotal.com](https://www.virustotal.com/gui/). 
+![virustotal_analysis](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Final_Project/Screenshots/wireshark_june11.dll_virustotal_scan_results_2.png)
+
 5. What kind of malware is this classified as?
     - `Trojan`
 
