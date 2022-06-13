@@ -28,6 +28,8 @@ You must inspect your traffic capture to answer the following questions:
     - Host name: `ROTTERDAM-PC`
     - IP address: `172.16.4.255`
     - MAC address: `00:59:07:b0:63:a4`
+
+    ![infected_machine](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Final_Project/Screenshots/wireshark_infected_machine_username.png)
     
 2. What is the username of the Windows user whose computer is infected? 
     - `matthijs.devries`
@@ -47,5 +49,9 @@ You must inspect your traffic capture to answer the following questions:
     - Windows username: `elmer.blanco`
     - Computer host name: `BLANCO-DESKTOP`
 
+![illegal_download_user_info](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Final_Project/Screenshots/wireshark_illegal_downloads.png)
+
 2. Which torrent file did the user download?
     - `Betty_Boop_Rhythm_on_the_Reservation.avi.torrent`
+
+![illegal_downloaded_file](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Final_Project/Screenshots/wireshark_illegal_download_file.png)
