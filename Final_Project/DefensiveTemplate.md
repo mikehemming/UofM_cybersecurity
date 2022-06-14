@@ -7,7 +7,6 @@
 - Suggestions for Going Further
 
 ### Network Topology
-_TODO: Fill out the information below._
 
 The following machines were identified on the network:
 - Azure VM - running Hyper-V
@@ -34,6 +33,7 @@ The following machines were identified on the network:
   - **Operating System**: Kali Linux
   - **Purpose**: Attacker (contains pentest tools)
   - **IP Address**: 192.168.0.90
+
 
 ### Description of Targets
 _TODO: Answer the questions below._
