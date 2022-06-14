@@ -34,6 +34,8 @@ The following machines were identified on the network:
   - **Purpose**: Attacker (contains pentest tools)
   - **IP Address**: 192.168.0.90
 
+![network_map](https://github.com/mikehemming/UofM_cybersecurity/blob/main/Final_Project/Screenshots/Network%20Map.png)
+
 
 ### Description of Targets
 _TODO: Answer the questions below._
@@ -68,7 +70,7 @@ Alert 3 is implemented as follows:
   - **Vulnerability Mitigated**: Malware detection/trojans 
   - **Reliability**: Medium reliability. Could generate false positives if the computer has high CPU utilization for legitimate reasons
 
-
+!
 
 ### Suggestions for Going Further (Optional)
 _
